@@ -15,7 +15,7 @@ def collatz(number):
             elif number == 1:
                 break
             elif number % 2 == 0: #and (number != 0 or 1): # % gives us remainder #even
-                number=number//2 #// get us answer when number is divided by 2, rounded to the next smallest whole number #technically i can just do number/2 since i converted number into an integer
+                number=number//2 #number is divided by 2, rounded to the next smallest whole number #technically i can just do number/2 since i converted number into an integer
             elif number%2==1: #odd
                 number=3*number+1
             print(number)          
