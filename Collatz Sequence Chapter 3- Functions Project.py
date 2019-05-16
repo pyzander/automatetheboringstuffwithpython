@@ -1,5 +1,5 @@
 #Collatz Sequence Practice Project #evaluates numbers to 1 #pg 77 
-#decided to make this because I didn't see anyone else with code that covered the posibilities of negative numbers, 0, 1 and non-numbers
+#covers the posibilities of negative numbers, 0, 1 and non-numbers
 
 
 print('Please enter an integer.')
