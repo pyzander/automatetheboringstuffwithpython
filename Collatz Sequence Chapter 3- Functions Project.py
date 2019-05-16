@@ -20,6 +20,8 @@ def collatz(number):
                 number=3*number+1
             print(number)          
     except:
-        print("Hey! You didn't put in an integer!")
+        print("Hey! You didn't input an integer! You should input an integer now.")
+        numberinput=input()
+        collatz(numberinput)
 
 collatz(numberinput)
